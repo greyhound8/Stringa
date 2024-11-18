@@ -1,32 +1,45 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author asocc
+ */
  public class TrovareA {
-    
+    //crea una variabile chiamata conta
     private int conta = 0;
-    
+    //crea una variabile privata chiamata utente
     private String utente;
-    //crea costruttutore che ha come parametro 
+    //crea costruttutore che ha come parametro la variabile scrittura
         public class TrovaA (scrittura) {
             //assegna al metodo chiamato scrittura il parametro di get scrittura
-            this.scrittura = scrittura.getScrittura;
+            this.scrittura = scrittura.getScrittura();
          }
         
         //crea la classe TrovaA
     public void TrovaA(){
-        //Questo for vede ogni carattere della parementro nella variabile 
+        //Questo for vede ogni carattere messo dentro l'oggeto
         for(int i = 0; i < scrittura.length(); i++){
-            if (Scrittura.charAt(i) == 'a'){
+        //Questo if controlla per ogni carattere dell'oggeto 
+            if (scrittura.charAt(i) == 'a'){
+            //questo che controlla le tutte le variabili dell'oggeto 
                 conta = conta + 1;
             }
         }
         
     }
-    
+    //crea la classe StampaA
     public void stampaA(){
+        //scrive quante volte contiene la lettera a
         System.out.println("La parola dell'utente contiene \"" + conta + "\" volte la lettera 'a'");
+        //manda a capo
         System.out.print("\n");
+        //ogni volta trovata la lettera a la scrive
         for(int i = 0; i < conta; i++){
             System.out.print("A");
         }
-        System.out.println(" ");
     }
      
 }
