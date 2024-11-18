@@ -17,7 +17,7 @@ public class Stringa {
     }
  
 
-   public static void Lettore() {
+   public void Lettore() {
         Scanner lettore = new Scanner(System.in);
         System.out.print("Scrivi una parola: ");
         String parola = lettore.nextLine();
