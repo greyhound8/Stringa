@@ -12,7 +12,8 @@ package com.mycompany.stringa;
  */
 public class Esecuzione {
       public static void main(String[] args) {
-        Stringa.Lettore();
+      Stringa string = new Stringa();
+      string.Lettore();
     }
 }
 
