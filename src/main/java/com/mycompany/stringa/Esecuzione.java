@@ -12,14 +12,18 @@ package com.mycompany.stringa;
  */
 public class Esecuzione {
       public static void main(String[] args) {
+      //crea un'istanza della classe request per gestire l'input
       Stringa string = new Stringa();
+      //invoca il metodo Lettore che chiede la variabile da gestire data dall'utente
       string.Lettore();
+      //crea un'istanza trovaA che serve per fa si che legga il l'oggeto scanner come un array
+      TrovaA a = new trovaA
+      //invoca il metodo che contene lo scanner letto come un array e esegue il conteggio delle lettere "a" contenute nel array creato precedentemente
+      a.TrovaA
+      //questo metodo stampa "a" quante volte c'è        
+      a.stampaA
+      
+      
     }
 }
-
-/*
-    private static class Lettore {
-    Stringa Lettore= new Stringa(); scanner.scrittura();
-        public Lettore() {
-        }*/ 
   
